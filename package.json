@@ -1,0 +1,14 @@
+{
+  "dependencies": {
+    "@babel/cli": "^7.5.5",
+    "@babel/core": "^7.5.5",
+    "@babel/node": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "@babel/preset-flow": "^7.0.0",
+    "apollo-server-micro": "^2.8.1",
+    "graphql": "^14.4.2"
+  },
+  "scripts": {
+    "now-build": "yarn babel-node api/index.js"
+  }
+}
